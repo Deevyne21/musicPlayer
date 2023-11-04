@@ -1,0 +1,122 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.music-container {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    justify-content: center;
+    background-color: white;
+}
+
+.music-player {
+    width: 350px;
+    padding: 25px 35px;
+    text-align: center;
+}
+
+.navlist {
+    display: flex;
+    height: 80vh;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    border: 1px solid #333;
+    background-color: white;
+}
+
+.circle {
+    width: 80px;
+    height: 80px;
+    padding: 20px 35px;
+    border-radius: 50%;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    position: relative;
+    top: 20px;
+    background-color: whitesmoke;
+}
+
+.circle img {
+    width: 50px;
+    border-radius: 50%;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    left: -20px;
+    top: -10px;
+}
+
+.circle2 {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.circle2 h5 {
+    font-size: 13px;
+    text-align: center;
+}
+
+.circle2 h4 {
+    font-size: 13px;
+    text-align: center;
+    padding-top: 10px;
+}
+
+.circle2 p {
+    font-size: 13px;
+    text-align: center;
+    padding-top: 10px;
+}
+
+.icon {
+    display: flex;
+    width: 250px;
+    background-color: white;
+    margin-top: 50px;
+    justify-content: space-between;
+}
+
+.fa-heart {
+    color: red;
+    font-size: 14px;
+}
+
+.progress-bar {
+    width: 250px;
+    height: 5px;
+    background-color: black;
+    margin-top: 30px;
+}
+
+.progressBar {
+    width: 0px;
+    height: 5px;
+    background-color: white;
+}
+
+.icon2 {
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+
+.fa-play {
+    background-color: orangered;
+    color: white;
+    font-size: 15px;
+    padding: 5px 10px;
+    border-radius: 30px;
+}
